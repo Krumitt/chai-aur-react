@@ -9,8 +9,8 @@ export default function ColorOptions({ setColor }) {
             className="
         absolute
         bottom-16
-        left-1/2
-        -translate-x-1/2
+        left-[50%]
+        -translate-x-[50%]
         flex
         items-center
         gap-12

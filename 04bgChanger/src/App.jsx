@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div
-      className="h-screen w-full relative"
+      className="min-h-screen min-w-full relative"
       style={{ backgroundColor: color }}
     >
       <ColorOptions setColor={setColor} />
