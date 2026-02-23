@@ -6,6 +6,7 @@ import Reset from './Pages/Reset';
 import Withdraw from './Pages/Withdraw';
 import Err from './Pages/Err';
 import fakeDelay from './utils/fakeDelay';
+
 const router = createBrowserRouter(
   [
     {
