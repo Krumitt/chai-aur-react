@@ -56,7 +56,6 @@ const pasteSlice = createSlice({
                 })
             }
             localStorage.setItem('pastes', JSON.stringify(updatedState.pastes));
-            toast.success("Paste deleted successfully");
             return updatedState;
         }
     }
