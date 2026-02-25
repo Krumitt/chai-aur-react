@@ -1,12 +1,20 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import AddTodo from "./components/AddTodo"
 import Todos from "./components/Todos"
-
+import AppLayout from "./layout/AppLayout"
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <AppLayout />
+    }
+  ]
+)
 function App() {
 
   return (
     <>
-      <AddTodo />
-      <Todos />
+      <RouterProvider router={router} />
     </>
   )
 }
